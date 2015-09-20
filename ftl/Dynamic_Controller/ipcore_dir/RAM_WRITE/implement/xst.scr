@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent RAM_WRITE_top
+-p xc6vlx240t-ff1759-3
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn RAM_WRITE_top 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

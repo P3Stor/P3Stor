@@ -1,0 +1,9 @@
+run
+-ifmt MIXED
+-top clk_gen_83M_exdes
+-p xc6vlx240t-ff1759-3
+-ifn xst.prj
+-ofn clk_gen_83M_exdes
+-keep_hierarchy soft 
+-equivalent_register_removal no 
+-max_fanout 65535
